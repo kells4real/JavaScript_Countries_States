@@ -5,8 +5,8 @@ Javascript json for countries and states.
 ```javascript
 data(){
    return { 
-   // countries: countries from the json.js file
-   // states_item: states_item from json.js file
+   // countries: country_items from the json.js file
+   // states_item: states_item from the json.js file
    country: "",
    state: ""     
    }
