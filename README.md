@@ -40,16 +40,18 @@ In your template, you should loop over countries and states as thus
 ```html
 <template>
    <label>Country</label>
-   <select>
-    <option v-for="item in country_items" :key="item">
+   <select v-model="country">
+    <option v-for="item in countries" :key="item" :value="item">
       {{item}}
     </option>
    </select>
    
    <label>State</label> 
-    <option v-for="item in states" :key="item">
+    <select v-model="state">
+    <option v-for="item in states" :key="item" :value="item">
       {{item}}
     </option>
+    </select>
 </template>
 
 ```
