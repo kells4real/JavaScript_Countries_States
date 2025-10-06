@@ -57,7 +57,7 @@ In your template, you should loop over countries and states as thus
 ```
 You can even make this into a reuseable component
 
-This logic can be applied to react, Angular or any other JS frontend framework
+This logic can be applied to React, Angular or any other JS frontend framework
 
 
 
