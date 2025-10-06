@@ -27,6 +27,7 @@ If you wanted to post the info to a backend for example, you could do this:
  async def postInfo(){
      let data = { country : this.country,
                   state : this.state }
+     url = 'api/user-data/'
      const response = await axios.post(url, data);
      if (response){
         // Do what ever you want  
